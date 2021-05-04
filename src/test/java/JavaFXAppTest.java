@@ -9,4 +9,7 @@ class JavaFXAppTest {
 
     @Test
     void divideTest(){assertEquals(5, new JavaFXApp().computeDivide(10, 2));}
+
+    @Test
+    void multiplyTest(){assertEquals(16, new JavaFXApp().computeMultiply(4,4));}
 }
