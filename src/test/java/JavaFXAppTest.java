@@ -8,5 +8,5 @@ class JavaFXAppTest {
     }
 
     @Test
-    //void divideTest(){assertEquals();}
+    void divideTest(){assertEquals(5, new JavaFXApp().computeDivide(10, 2));}
 }
